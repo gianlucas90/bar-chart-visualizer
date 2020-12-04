@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(#1f4037, #99f2c8);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.6rem;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding-left: 3rem;
+  border-radius: 0.3rem;
+}
+
+#title {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 4rem;
+}
+
+/* .bar:hover {
+  fill: brown;
+} */
+
+div#tooltip {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  width: 60px;
+  height: auto;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
